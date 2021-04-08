@@ -1,0 +1,23 @@
+{
+  "name": "jogo-web",
+  "version": "1.0.0",
+  "description": "link  versão 0.15  https://ft-riddle.github.io/jogo-web/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FT-riddle/jogo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FT-riddle/jogo-web/issues"
+  },
+  "homepage": "https://github.com/FT-riddle/jogo-web#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
