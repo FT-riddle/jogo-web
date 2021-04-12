@@ -26,7 +26,7 @@
       "url": "git+https://github.com/FT-riddle/jogo-web.git"
   },
   "scripts": {
-      "start": "node index.js",
+      "start": "node servidor.js",
       "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "0.1.0"
