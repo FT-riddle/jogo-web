@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "main": "servidor.js",
-  "name": "arc20202-servidor",
+  "name": "jogo-web-servidor.js",
   "repository": {
       "type": "git",
       "url": "git+https://github.com/FT-riddle/jogo-web.git"
