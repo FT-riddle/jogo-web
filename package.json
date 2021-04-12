@@ -1,25 +1,32 @@
 {
-  "name": "FT-riddle",
-  "version": "1.0.0",
-  "description": "<h1>https://ft-riddle.github.io/jogo-web/</h1>",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FT-riddle/jogo-web.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Francine <francineregisduarte@gmail.com>",
   "bugs": {
-    "url": "https://github.com/FT-riddle/jogo-web/issues"
+      "url": "https://github.com/FT-riddle/jogo-web.git"
   },
-  "homepage": "https://github.com/FT-riddle/jogo-web#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
-}
-  
+      "express": "^4.17.1",
+      "socket.io": "^3.1.2"
+  },
+  "description": "Servidor de jogo Web multijogador",
+  "engines": {
+      "node": "14.x"
+  },
+  "homepage": "https://github.com/FT-riddle/jogo-web",
+  "keywords": [
+      "game",
+      "node",
+      "phaser",
+      "web"
+  ],
+  "license": "MIT",
+  "main": "servidor.js",
+  "name": "arc20202-servidor",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FT-riddle/jogo-web.git"
+  },
+  "scripts": {
+      "start": "node servidor.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
