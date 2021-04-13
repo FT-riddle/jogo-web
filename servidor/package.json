@@ -1,0 +1,33 @@
+{
+    "author": "FT-riddle",
+    "bugs": {
+        "url": "https://github.com/FT-riddle/jogo-web/issues"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^3.1.2"
+    },
+    "description": "Servidor de jogo Web multijogador",
+    "engines": {
+        "node": "14.x"
+    },
+    "homepage": "https://github.com/FT-riddle/jogo-web#readme",
+    "keywords": [
+        "game",
+        "node",
+        "phaser",
+        "web"
+    ],
+    "license": "MIT",
+    "main": "servidor.js",
+    "name": "ft-riddle",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FT-riddle/jogo-web.git"
+    },
+    "scripts": {
+        "start": "node servidor.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "0.1.0"
+}
